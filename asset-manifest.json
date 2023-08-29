@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/shmooz-demo/static/css/main.373e4742.css",
-    "main.js": "/shmooz-demo/static/js/main.20cd056a.js",
+    "main.js": "/shmooz-demo/static/js/main.7389861e.js",
     "static/js/586.a91abe37.chunk.js": "/shmooz-demo/static/js/586.a91abe37.chunk.js",
-    "static/js/663.5fdc702b.chunk.js": "/shmooz-demo/static/js/663.5fdc702b.chunk.js",
+    "static/js/663.cf699bd3.chunk.js": "/shmooz-demo/static/js/663.cf699bd3.chunk.js",
     "static/js/774.4ae7abda.chunk.js": "/shmooz-demo/static/js/774.4ae7abda.chunk.js",
     "static/js/941.bf5340bd.chunk.js": "/shmooz-demo/static/js/941.bf5340bd.chunk.js",
     "static/js/324.68269ebb.chunk.js": "/shmooz-demo/static/js/324.68269ebb.chunk.js",
     "static/js/549.8f97013d.chunk.js": "/shmooz-demo/static/js/549.8f97013d.chunk.js",
-    "static/js/514.2059c863.chunk.js": "/shmooz-demo/static/js/514.2059c863.chunk.js",
+    "static/js/514.527ecb6e.chunk.js": "/shmooz-demo/static/js/514.527ecb6e.chunk.js",
     "static/js/418.83811016.chunk.js": "/shmooz-demo/static/js/418.83811016.chunk.js",
     "static/js/280.4171df4e.chunk.js": "/shmooz-demo/static/js/280.4171df4e.chunk.js",
     "static/js/614.1171d510.chunk.js": "/shmooz-demo/static/js/614.1171d510.chunk.js",
@@ -128,6 +128,6 @@
   },
   "entrypoints": [
     "static/css/main.373e4742.css",
-    "static/js/main.20cd056a.js"
+    "static/js/main.7389861e.js"
   ]
 }
