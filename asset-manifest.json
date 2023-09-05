@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.537b1316.css",
-    "main.js": "/static/js/main.fc64f34b.js",
+    "main.js": "/static/js/main.dba25879.js",
     "static/js/586.a91abe37.chunk.js": "/static/js/586.a91abe37.chunk.js",
-    "static/js/543.862878b7.chunk.js": "/static/js/543.862878b7.chunk.js",
+    "static/js/101.d3396370.chunk.js": "/static/js/101.d3396370.chunk.js",
     "static/js/774.4ae7abda.chunk.js": "/static/js/774.4ae7abda.chunk.js",
     "static/js/941.bf5340bd.chunk.js": "/static/js/941.bf5340bd.chunk.js",
     "static/js/324.68269ebb.chunk.js": "/static/js/324.68269ebb.chunk.js",
@@ -29,17 +29,17 @@
     "static/js/565.8a693137.chunk.js": "/static/js/565.8a693137.chunk.js",
     "static/js/368.603bbecc.chunk.js": "/static/js/368.603bbecc.chunk.js",
     "static/js/886.8ead2634.chunk.js": "/static/js/886.8ead2634.chunk.js",
-    "static/js/629.620c9e5c.chunk.js": "/static/js/629.620c9e5c.chunk.js",
+    "static/js/555.268dd49e.chunk.js": "/static/js/555.268dd49e.chunk.js",
     "static/js/148.ad4ba0cb.chunk.js": "/static/js/148.ad4ba0cb.chunk.js",
     "static/css/34.7eba4651.chunk.css": "/static/css/34.7eba4651.chunk.css",
     "static/js/34.89a485c8.chunk.js": "/static/js/34.89a485c8.chunk.js",
-    "static/js/595.f66b8a74.chunk.js": "/static/js/595.f66b8a74.chunk.js",
+    "static/js/835.4fa0e6ac.chunk.js": "/static/js/835.4fa0e6ac.chunk.js",
     "static/js/526.0ff8458f.chunk.js": "/static/js/526.0ff8458f.chunk.js",
     "static/js/206.9327810d.chunk.js": "/static/js/206.9327810d.chunk.js",
-    "static/js/768.977bd159.chunk.js": "/static/js/768.977bd159.chunk.js",
+    "static/js/402.e649f1bc.chunk.js": "/static/js/402.e649f1bc.chunk.js",
     "static/js/211.5bfc259a.chunk.js": "/static/js/211.5bfc259a.chunk.js",
     "static/js/28.a6bf6ec7.chunk.js": "/static/js/28.a6bf6ec7.chunk.js",
-    "static/js/294.24a409b0.chunk.js": "/static/js/294.24a409b0.chunk.js",
+    "static/js/294.925923e8.chunk.js": "/static/js/294.925923e8.chunk.js",
     "static/media/prod-5.png": "/static/media/prod-5.6341ab32ccb04a03fab0.png",
     "static/media/img-slider-layout2.png": "/static/media/img-slider-layout2.1f0d0963731b96833ca4.png",
     "static/media/bg-header.jpg": "/static/media/bg-header.07dde975bc9d1d42f1c1.jpg",
@@ -54,6 +54,8 @@
     "static/media/img-slider-layout3.png": "/static/media/img-slider-layout3.fd5936f0c719cf635fea.png",
     "static/media/slider-light-1.png": "/static/media/slider-light-1.2d1cfffd9c140a9a5ceb.png",
     "static/media/slider-dark-1.png": "/static/media/slider-dark-1.10e974d5c3f717f068a5.png",
+    "static/media/Shmooz-Logo-Animation.mp4": "/static/media/Shmooz-Logo-Animation.9d13eec0e05babbbf817.mp4",
+    "static/media/Shmooz-Logo-Animation.gif": "/static/media/Shmooz-Logo-Animation.64320608083da8875d44.gif",
     "static/media/prod-2.png": "/static/media/prod-2.9052f457654b94787d29.png",
     "static/media/bg-heand.png": "/static/media/bg-heand.db3a1e2cda4a17f8fb4f.png",
     "static/media/customization-left.png": "/static/media/customization-left.fecd21b1075292e6bd29.png",
@@ -128,6 +130,6 @@
   },
   "entrypoints": [
     "static/css/main.537b1316.css",
-    "static/js/main.fc64f34b.js"
+    "static/js/main.dba25879.js"
   ]
 }
