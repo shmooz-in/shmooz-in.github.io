@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.537b1316.css",
-    "main.js": "/static/js/main.5aca65fd.js",
+    "main.js": "/static/js/main.38813148.js",
     "static/js/586.96c5d0d5.chunk.js": "/static/js/586.96c5d0d5.chunk.js",
-    "static/js/131.da8a0dcf.chunk.js": "/static/js/131.da8a0dcf.chunk.js",
+    "static/js/333.b3b1d6df.chunk.js": "/static/js/333.b3b1d6df.chunk.js",
     "static/js/126.0c43c53a.chunk.js": "/static/js/126.0c43c53a.chunk.js",
     "static/js/941.6da38538.chunk.js": "/static/js/941.6da38538.chunk.js",
     "static/js/324.ada002e8.chunk.js": "/static/js/324.ada002e8.chunk.js",
@@ -75,6 +75,7 @@
     "static/media/slider-light-6.png": "/static/media/slider-light-6.8050eaa48204468d76e2.png",
     "static/media/hero-dashboard.png": "/static/media/hero-dashboard.cad3d84bc8d6d2084e52.png",
     "static/media/slider-dark-5.png": "/static/media/slider-dark-5.a331227bda569eed1f97.png",
+    "static/media/events-backgroud.jpg": "/static/media/events-backgroud.c29ab02411b3ae68dbf4.jpg",
     "static/media/slider-light-5.png": "/static/media/slider-light-5.8b50556d85f5afb0eee1.png",
     "static/media/bg-hero-block-dark.png": "/static/media/bg-hero-block-dark.784dd3620e7398ba6be7.png",
     "static/media/bg-hero-block-light.png": "/static/media/bg-hero-block-light.11d881d35ab50c9abcbc.png",
@@ -140,6 +141,6 @@
   },
   "entrypoints": [
     "static/css/main.537b1316.css",
-    "static/js/main.5aca65fd.js"
+    "static/js/main.38813148.js"
   ]
 }
