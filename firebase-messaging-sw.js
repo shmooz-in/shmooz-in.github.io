@@ -12,31 +12,35 @@ var firebaseConfig = {
     appId: '1:786248212603:web:fafda5a88186239bc182de'
 };
 
+// This initializes the Firebase app with the provided configuration
 firebase.initializeApp(firebaseConfig);
 
-// Retrieve firebase messaging
+// This retrieves an instance of Firebase Messaging to handle background messages.
 const messaging = firebase.messaging();
 
-const formatData = (input) => {
+// Utility functions to format date and time values.
+
+// Function to format data to 2 digit like 01, 02, 03, 04, 05, 06, 07, 08, 09
+function formatData(input) {
     if (input > 9) {
         return input;
     } else return `0${input}`;
 };
 
-// Function to convert
-// 24 Hour to 12 Hour clock
-const formatHour = (input) => {
+// Function to format hour to 12 hour format
+function formatHour(input) {
     if (input > 12) {
         return input - 12;
     }
     return input;
 };
 
-const formatDate = (date) => {
-    const today = new Date(date);
-    const yyyy = today.getFullYear();
+// Function to format date to dd/mm/yyyy
+function formatDate(date) {
+    const today = new Date(date); // e.g. 2021-01-01
+    const yyyy = today.getFullYear(); // e.g. 2021
     let mm = today.getMonth() + 1; // Months start at 0!
-    let dd = today.getDate();
+    let dd = today.getDate(); // Days start at 1!
 
     if (dd < 10) dd = '0' + dd;
     if (mm < 10) mm = '0' + mm;
@@ -46,15 +50,17 @@ const formatDate = (date) => {
     return formattedToday;
 };
 
-const formatTime = (date) => {
+// Function to format time to hh:mm AM/PM format e.g. 12:01 AM
+function formatTime(date) {
     const today = new Date(date);
-    let hh = formatData(formatHour(today.getHours()));
-    let MM = formatData(today.getMinutes());
-    const formattedToday = `${hh}:${MM} ${today.getHours() > 12 ? 'PM' : 'AM'}`;
+    let hh = formatData(formatHour(today.getHours())); // Hours in 12h format
+    let MM = formatData(today.getMinutes()); // Minutes in 2 digits
+    const formattedToday = `${hh}:${MM} ${today.getHours() > 12 ? 'PM' : 'AM'}`; // AM or PM based on hours value
 
     return formattedToday;
 };
 
+// This function is triggered when a background message is received. It logs the payload and can be customized to show notifications.
 messaging.onBackgroundMessage(function (payload) {
     /// used when backgound message is recived to notify application using fcm channel
     console.log('Received background message ', payload);
@@ -71,7 +77,8 @@ messaging.onBackgroundMessage(function (payload) {
     // self.registration.showNotification(notificationTitle, notificationOptions);
 });
 
-////Code for adding event on click of notification
+// This event listener handles notification click events. 
+// It focuses an existing window or opens a new one with the URL specified in the notification data.
 self.addEventListener('notificationclick', function (event) {
     console.log('notificationclick', event);
     var urlToRedirect = event.notification.data.url;
